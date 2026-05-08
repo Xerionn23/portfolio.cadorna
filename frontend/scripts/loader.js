@@ -1,6 +1,6 @@
 const redirectDelay = 1800;
 const fadeDuration = 500;
-const targetUrl = "index.php";
+const targetUrl = "index.html";
 
 window.addEventListener("DOMContentLoaded", () => {
   const screen = document.getElementById("loading-screen");

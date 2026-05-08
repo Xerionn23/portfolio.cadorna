@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio | Rotcher A. Cadorna Jr.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="frontend/styles/main.css" />
+  </head>
+  <body class="bg-black text-white min-h-screen page-animate">
+    <nav class="sticky top-0 z-30 border-b border-white/10 bg-black/80 backdrop-blur" data-animate="fade-up">
+      <div class="mx-auto flex max-w-6xl items-center justify-between gap-6 px-6 py-4">
+        <a href="#home" class="text-lg font-semibold tracking-tight">Rotcher</a>
+        <div class="hidden items-center gap-6 text-sm text-white/70 md:flex">
+          <a class="transition hover:text-white" href="#home">Home</a>
+          <a class="transition hover:text-white" href="#about">About</a>
+          <a class="transition hover:text-white" href="#skills">Skills</a>
+          <a class="transition hover:text-white" href="#projects">Projects</a>
+          <a class="transition hover:text-white" href="#education">Education</a>
+        </div>
+        <a class="btn-outline text-xs uppercase tracking-[0.3em]" href="#contact">Contact</a>
+      </div>
+      <div class="border-t border-white/5 md:hidden">
+        <div class="no-scrollbar flex items-center gap-4 overflow-x-auto px-6 py-3 text-xs uppercase tracking-[0.35em] text-white/60">
+          <a class="shrink-0 transition hover:text-white" href="#home">Home</a>
+          <a class="shrink-0 transition hover:text-white" href="#about">About</a>
+          <a class="shrink-0 transition hover:text-white" href="#skills">Skills</a>
+          <a class="shrink-0 transition hover:text-white" href="#projects">Projects</a>
+          <a class="shrink-0 transition hover:text-white" href="#education">Education</a>
+          <a class="shrink-0 transition hover:text-white" href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section id="home" class="pt-16 pb-20 md:pt-24">
+        <div class="mx-auto grid max-w-6xl items-center gap-12 px-6 lg:grid-cols-[1.1fr,0.9fr]">
+          <div class="space-y-6 text-center lg:text-left" data-animate="fade-up">
+            <div class="space-y-4">
+              <span class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1 text-[11px] uppercase tracking-[0.35em] text-white/70">
+                Full Stack Developer
+              </span>
+              <h1 class="text-4xl font-semibold tracking-tight sm:text-5xl md:text-6xl">
+                <span class="block text-white/70">Rotcher A.</span>
+                <span class="block text-white">Cadorna Jr.</span>
+              </h1>
+            </div>
+            <p class="text-base text-white/70 sm:text-lg">
+              I build
+              <span
+                class="carousel-text inline-flex font-semibold text-white underline decoration-white/30 decoration-2 underline-offset-4"
+                data-carousel="reliable web systems|clinic workflow apps|secure document management tools"
+                data-carousel-speed="2400"
+                aria-live="polite"
+              >
+                reliable web systems
+              </span>
+              that simplify operations.
+            </p>
+            <p class="text-sm text-white/60">
+              BS Computer Science graduate in June 2026, ready for junior roles and
+              freelance projects.
+            </p>
+            <div class="flex flex-wrap gap-3 text-[11px] uppercase tracking-[0.35em] text-white/60">
+              <span class="rounded-full border border-white/10 bg-white/5 px-4 py-2">BSCS 2026</span>
+              <span class="rounded-full border border-white/10 bg-white/5 px-4 py-2">Open to Junior Roles</span>
+              <span class="rounded-full border border-white/10 bg-white/5 px-4 py-2">Freelance Ready</span>
+            </div>
+            <div class="flex flex-wrap justify-center gap-3 lg:justify-start">
+              <a class="btn-primary" href="Cadorna%20Resume%20(1).pdf" download>Download Resume</a>
+              <a class="btn-outline" href="#contact">Contact Me</a>
+            </div>
+            <div class="flex flex-wrap justify-center gap-4 text-xs uppercase tracking-[0.35em] text-white/50 lg:justify-start">
+              <span>Brgy Bitungol</span>
+              <span>Norzagaray, Bulacan</span>
+            </div>
+          </div>
+          <div class="relative flex flex-col items-center gap-6" data-animate="fade-up">
+            <div class="profile-stage">
+              <div class="profile-frame">
+                <img
+                  src="img/profile.png"
+                  alt="Rotcher A. Cadorna Jr."
+                  class="profile-image"
+                />
+              </div>
+            </div>
+            <div class="profile-meta flex flex-wrap items-center justify-center gap-6 text-xs uppercase tracking-[0.35em] text-white/55">
+              <span>Full stack web apps</span>
+              <span>Graduating 2026</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="section-spacing">
+        <div class="mx-auto grid max-w-6xl items-start gap-10 px-6 lg:grid-cols-[0.9fr,1.1fr]">
+          <div data-animate="fade-up">
+            <p class="eyebrow">About</p>
+            <h2 class="section-title mt-3">Clear systems. Practical results.</h2>
+          </div>
+          <div class="space-y-6 text-white/70" data-animate="fade-up">
+            <p class="text-base sm:text-lg">
+              I focus on turning manual processes into clean, reliable web applications that
+              save time and keep data organized. My recent academic systems cover clinic
+              operations and secure document workflows.
+            </p>
+            <div class="grid gap-4 sm:grid-cols-3">
+              <div class="panel rounded-2xl p-4 text-center">
+                <p class="text-[11px] uppercase tracking-[0.35em] text-white/50">Systems</p>
+                <p class="mt-2 text-2xl font-semibold text-white">2</p>
+                <p class="text-xs text-white/60">Academic deployments</p>
+              </div>
+              <div class="panel rounded-2xl p-4 text-center">
+                <p class="text-[11px] uppercase tracking-[0.35em] text-white/50">Thesis</p>
+                <p class="mt-2 text-2xl font-semibold text-white">1</p>
+                <p class="text-xs text-white/60">iClinic system</p>
+              </div>
+              <div class="panel rounded-2xl p-4 text-center">
+                <p class="text-[11px] uppercase tracking-[0.35em] text-white/50">Focus</p>
+                <p class="mt-2 text-2xl font-semibold text-white">Ops</p>
+                <p class="text-xs text-white/60">Clinic + ERMS flow</p>
+              </div>
+            </div>
+            <div class="grid gap-4 sm:grid-cols-2">
+              <div class="panel space-y-3 rounded-2xl p-5">
+                <p class="text-[11px] uppercase tracking-[0.35em] text-white/50">Focus</p>
+                <ul class="space-y-2 text-sm">
+                  <li>Workflow automation</li>
+                  <li>Data clarity and security</li>
+                  <li>Reliable user experience</li>
+                </ul>
+              </div>
+              <div class="panel space-y-3 rounded-2xl p-5">
+                <p class="text-[11px] uppercase tracking-[0.35em] text-white/50">Open To</p>
+                <ul class="space-y-2 text-sm">
+                  <li>Junior full stack roles</li>
+                  <li>Freelance web projects</li>
+                  <li>Team collaboration</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="section-spacing">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="flex flex-wrap items-end justify-between gap-6" data-animate="fade-up">
+            <div>
+              <p class="eyebrow">Skills</p>
+              <h2 class="section-title mt-3">Tools I build with</h2>
+            </div>
+            <p class="max-w-md text-sm text-white/60">
+              A focused stack that covers UI, backend logic, and data workflows.
+            </p>
+          </div>
+          <div class="mt-10 space-y-4" data-animate="fade-up">
+            <p class="text-xs uppercase tracking-[0.35em] text-white/50">Core Skills</p>
+            <div class="ticker -mx-6 w-full rounded-full border border-white/10 bg-white/5 py-3">
+              <div class="ticker-track" aria-label="Skills ticker">
+                <div class="ticker-group">
+                  <span class="ticker-item">HTML5</span>
+                  <span class="ticker-sep">•</span>
+                  <span class="ticker-item">CSS3</span>
+                  <span class="ticker-sep">•</span>
+                  <span class="ticker-item">JavaScript</span>
+                  <span class="ticker-sep">•</span>
+                  <span class="ticker-item">Tailwind CSS</span>
+                  <span class="ticker-sep">•</span>
+                  <span class="ticker-item">PHP</span>
+                  <span class="ticker-sep">•</span>
+                  <span class="ticker-item">Python</span>
+                  <span class="ticker-sep">•</span>
+                  <span class="ticker-item">Flask</span>
+                  <span class="ticker-sep">•</span>
+                  <span class="ticker-item">MySQL</span>
+                  <span class="ticker-sep">•</span>
+                  <span class="ticker-item">Git</span>
+                  <span class="ticker-sep">•</span>
+                  <span class="ticker-item">Figma</span>
+                </div>
+                <div class="ticker-group" aria-hidden="true">
+                  <span class="ticker-item">HTML5</span>
+                  <span class="ticker-sep">•</span>
+                  <span class="ticker-item">CSS3</span>
+                  <span class="ticker-sep">•</span>
+                  <span class="ticker-item">JavaScript</span>
+                  <span class="ticker-sep">•</span>
+                  <span class="ticker-item">Tailwind CSS</span>
+                  <span class="ticker-sep">•</span>
+                  <span class="ticker-item">PHP</span>
+                  <span class="ticker-sep">•</span>
+                  <span class="ticker-item">Python</span>
+                  <span class="ticker-sep">•</span>
+                  <span class="ticker-item">Flask</span>
+                  <span class="ticker-sep">•</span>
+                  <span class="ticker-item">MySQL</span>
+                  <span class="ticker-sep">•</span>
+                  <span class="ticker-item">Git</span>
+                  <span class="ticker-sep">•</span>
+                  <span class="ticker-item">Figma</span>
+                </div>
+              </div>
+            </div>
+            <p class="text-sm text-white/60">Scrolling skill ticker inspired by news crawls.</p>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="section-spacing">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="flex flex-wrap items-end justify-between gap-6" data-animate="fade-up">
+            <div>
+              <p class="eyebrow">Projects</p>
+              <h2 class="section-title mt-3">Recent work</h2>
+            </div>
+            <p class="max-w-md text-sm text-white/60">
+              Academic systems focused on real operations and reporting.
+            </p>
+          </div>
+          <div class="mt-10 grid gap-6 lg:grid-cols-2">
+            <article class="panel project-card rounded-3xl p-6" data-animate="fade-up">
+              <div class="project-media">
+                <img
+                  src="img/Iclinic_project.png"
+                  alt="iClinic Management System preview"
+                  class="project-image"
+                />
+              </div>
+              <div class="project-content mt-6">
+                <div class="flex items-center justify-between">
+                  <h3 class="project-title text-xl font-semibold">iClinic Management System</h3>
+                  <span class="badge">Thesis</span>
+                </div>
+                <p class="project-description text-white/70">
+                  Organizes patient records and reduces processing time for Norzagaray College
+                  clinic operations.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="chip">HTML</span>
+                  <span class="chip">CSS</span>
+                  <span class="chip">JavaScript</span>
+                  <span class="chip">Tailwind CSS</span>
+                  <span class="chip">Python</span>
+                  <span class="chip">Flask</span>
+                </div>
+                <div class="flex flex-wrap items-center justify-between gap-3 text-xs uppercase tracking-[0.35em] text-white/50">
+                  <span>Clinic Ops</span>
+                  <span>Backend: Flask</span>
+                </div>
+              </div>
+            </article>
+            <article class="panel project-card rounded-3xl p-6" data-animate="fade-up">
+              <div class="project-media">
+                <img
+                  src="img/ERMS_Project.png"
+                  alt="ERMS Management System preview"
+                  class="project-image"
+                />
+              </div>
+              <div class="project-content mt-6">
+                <div class="flex items-center justify-between">
+                  <h3 class="project-title text-xl font-semibold">ERMS Management System</h3>
+                  <span class="badge">Academic</span>
+                </div>
+                <p class="project-description text-white/70">
+                  Manages neuro and drug test documents, tracks attendance by batch, and
+                  prepares reports with a clear, secure workflow.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="chip">HTML</span>
+                  <span class="chip">CSS</span>
+                  <span class="chip">JavaScript</span>
+                  <span class="chip">Tailwind CSS</span>
+                  <span class="chip">PHP</span>
+                </div>
+                <div class="flex flex-wrap items-center justify-between gap-3 text-xs uppercase tracking-[0.35em] text-white/50">
+                  <span>Diagnostics</span>
+                  <span>Backend: PHP</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section id="education" class="section-spacing">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="flex flex-wrap items-end justify-between gap-6" data-animate="fade-up">
+            <div>
+              <p class="eyebrow">Education</p>
+              <h2 class="section-title mt-3">Academic background</h2>
+            </div>
+            <p class="max-w-md text-sm text-white/60">
+              Structured learning path focused on web systems and real-world operations.
+            </p>
+          </div>
+          <div class="mt-10 grid gap-6 lg:grid-cols-2">
+            <article class="panel flex flex-col gap-5 rounded-3xl p-6" data-animate="fade-up">
+              <div class="flex items-center justify-between">
+                <p class="text-[11px] uppercase tracking-[0.35em] text-white/50">Tertiary</p>
+                <span class="badge">2026</span>
+              </div>
+              <div>
+                <h3 class="text-2xl font-semibold">BS Computer Science</h3>
+                <p class="text-white/70">Norzagaray College</p>
+              </div>
+              <p class="text-sm text-white/60">Graduation: June 3, 2026</p>
+              <div class="mt-auto flex flex-wrap gap-3 text-xs uppercase tracking-[0.35em] text-white/50">
+                <span class="rounded-full border border-white/10 bg-white/5 px-3 py-2">Thesis: iClinic</span>
+                <span class="rounded-full border border-white/10 bg-white/5 px-3 py-2">Full Stack</span>
+              </div>
+            </article>
+            <article class="panel flex flex-col gap-5 rounded-3xl p-6" data-animate="fade-up">
+              <div class="flex items-center justify-between">
+                <p class="text-[11px] uppercase tracking-[0.35em] text-white/50">Senior High</p>
+                <span class="badge">ICT</span>
+              </div>
+              <div>
+                <h3 class="text-2xl font-semibold">ICT Strand</h3>
+                <p class="text-white/70">Norzagaray National High School</p>
+              </div>
+              <p class="text-sm text-white/60">Grade 11 to 12</p>
+              <div class="mt-auto flex flex-wrap gap-3 text-xs uppercase tracking-[0.35em] text-white/50">
+                <span class="rounded-full border border-white/10 bg-white/5 px-3 py-2">Web Fundamentals</span>
+                <span class="rounded-full border border-white/10 bg-white/5 px-3 py-2">Design Basics</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="section-spacing">
+        <div class="mx-auto max-w-6xl px-6">
+          <div
+            class="panel grid items-center gap-8 rounded-3xl p-8 md:grid-cols-[1.1fr,0.9fr] md:p-10"
+            data-animate="fade-up"
+          >
+            <div class="space-y-4">
+              <p class="eyebrow">Contact</p>
+              <h2 class="section-title mt-3">Lets build something reliable together.</h2>
+              <p class="text-white/70">
+                For opportunities, collaborations, or portfolio inquiries, reach out anytime.
+              </p>
+              <div class="flex flex-wrap gap-3">
+                <a class="btn-primary" href="mailto:rotchercadorna16@gmail.com">Email Me</a>
+                <a class="btn-outline" href="Cadorna%20Resume%20(1).pdf" download>Download Resume</a>
+              </div>
+            </div>
+            <div class="space-y-4 text-sm text-white/70">
+              <div class="flex items-center justify-between border-b border-white/10 pb-3">
+                <span class="text-[10px] uppercase tracking-[0.3em] text-white/50">Email</span>
+                <a class="transition hover:text-white" href="mailto:rotchercadorna16@gmail.com">
+                  rotchercadorna16@gmail.com
+                </a>
+              </div>
+              <div class="flex items-center justify-between border-b border-white/10 pb-3">
+                <span class="text-[10px] uppercase tracking-[0.3em] text-white/50">Location</span>
+                <span>Brgy Bitungol, Norzagaray, Bulacan</span>
+              </div>
+              <div class="flex items-center justify-between border-b border-white/10 pb-3">
+                <span class="text-[10px] uppercase tracking-[0.3em] text-white/50">Resume</span>
+                <a class="transition hover:text-white" href="Cadorna%20Resume%20(1).pdf" download>
+                  Download PDF
+                </a>
+              </div>
+              <div class="flex items-center justify-between">
+                <span class="text-[10px] uppercase tracking-[0.3em] text-white/50">Availability</span>
+                <span>Open to junior roles</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="py-10" data-animate="fade-up">
+      <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 text-sm text-white/50 md:flex-row">
+        <span>© 2026 Rotcher A. Cadorna Jr.</span>
+      </div>
+    </footer>
+    <script src="frontend/scripts/main.js" defer></script>
+  </body>
+</html>

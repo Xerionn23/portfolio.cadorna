@@ -1,6 +1,6 @@
 const loaderSeen = sessionStorage.getItem("portfolioLoaderSeen");
 if (loaderSeen !== "1") {
-  window.location.replace("name_loading.php");
+  window.location.replace("name_loading.html");
 } else {
   sessionStorage.removeItem("portfolioLoaderSeen");
 }

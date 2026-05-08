@@ -413,7 +413,11 @@ body {
 }
 
 @media (max-width: 480px) {
+  .profile-stage {
+    width: min(240px, 72vw);
+  }
+
   .profile-meta {
-    margin-top: 2.25rem;
+    margin-top: 3rem;
   }
 }
